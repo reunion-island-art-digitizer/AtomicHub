@@ -1,0 +1,76 @@
+.auth {
+    max-width: 500px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.start {
+    transition: 0.3s ease-in-out;
+    margin: 1.75rem auto;
+    padding-Right: 17px;
+    opacity: 1;
+}
+.end {
+    transition: 0.3s ease-in-out;
+    margin: 0rem auto;
+    padding-Right: 17px;
+    opacity: 0;
+}
+
+.close {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 16px 0px;
+}
+.span {
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .5;
+}
+.content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth_button {
+    width: 97%;
+    min-height: 50px;
+    background-color: rgb(255, 170, 124);
+    color: rgb(255, 255, 255);
+    border-radius: 11px;
+    margin: 15px 0 0;
+    border: 3px solid rgb(255, 170, 124);
+    display: flex;
+    cursor: pointer;
+}
+.auth_icon {
+    color: white;
+    font-size: 20px;
+}
+.auth_button_name {
+    padding: 13px 10px;
+    width: 84%;
+    background-color: red;
+    border-radius: 10px 5px 5px 10px;
+    background-color: rgb(255, 119, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth_button_icon {
+    width: 16%;
+    background-color: red;
+    border-radius: 5px 10px 10px 5px;
+    background-color: rgb(255, 119, 74);
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

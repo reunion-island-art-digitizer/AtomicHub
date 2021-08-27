@@ -1,0 +1,33 @@
+.auth {
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.start {
+    transition: 0.3s ease-in-out;
+    margin: 1.75rem auto;
+    opacity: 1;
+}
+.end {
+    transition: 0.3s ease-in-out;
+    margin: 0rem auto;
+    opacity: 0;
+}
+
+.close_cont {
+    position: relative;
+}
+
+.span {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .5;
+}

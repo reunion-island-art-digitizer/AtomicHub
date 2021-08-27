@@ -1,0 +1,33 @@
+.conteiner
+    display: flex
+    width: 100%
+    @media (max-width: 644px)
+        width: 520px
+.cont_table
+    @media (max-width: 644px)
+        overflow: auto
+.cont_table::-webkit-scrollbar 
+  height: 10px
+.cont_table::-webkit-scrollbar-track 
+  background: #14192e      /* цвет дорожки */
+  width: 2px     
+
+.cont_table::-webkit-scrollbar-thumb 
+  background-color: rgb(234, 146, 62) /* цвет плашки */
+  border: 1px solid #424242  /* padding вокруг плашки */
+  border-radius: 10px
+    
+.cell
+    width: 100%
+.row
+    padding: 12px
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    flex-wrap: wrap
+    min-width: 170px
+    @media (max-width: 644px) 
+        overflow: auto
+        min-height: 72px
+        

@@ -1,0 +1,85 @@
+.conteiner
+    padding-bottom: 20px
+    overflow: auto
+.conteiner::-webkit-scrollbar 
+  height: 10px
+.conteiner::-webkit-scrollbar-track 
+  background: #14192e      /* цвет дорожки */
+  width: 2px     
+
+.conteiner::-webkit-scrollbar-thumb 
+  background-color: rgb(234, 146, 62) /* цвет плашки */
+  border: 1px solid #424242  /* padding вокруг плашки */
+  border-radius: 10px
+    
+.title_cont
+    width: 100%
+    display: flex
+    padding-top: 13px
+.title
+    padding: 15px
+    width: 100%
+    display: flex
+    justify-content: center
+.cell
+    width: 100%
+    display: flex
+    min-width: 640px
+.cell:nth-child(2n)
+    background-color: #14192e
+    border-radius: 20px
+.row
+    padding: 15px
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+.button
+    background-color: #14192e
+    border: 2px solid #ea923e
+    border-radius: 20px
+    padding: 6px 12px
+.list
+    border: 1px solid white
+    border-bottom: 0px solid white
+    display: flex
+    width: 100%
+    &:last-child
+        border-bottom: 1px solid white
+        margin-bottom: 15px
+   
+.list_cell
+    width: 100%
+    padding: 15px
+    display: flex
+    justify-content: center
+    align-items: center
+    border-right: 1px solid white
+
+.list_cell2
+    width: 100%
+    padding: 15px
+    display: flex
+    justify-content: center
+    align-items: center
+.row_list
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+.pagg
+    margin-top: 25px
+    display: flex
+    justify-content: flex-end
+    align-items: center
+.pagg_cont
+    padding: 15px 22px
+    display: flex
+    justify-content: center
+    align-items: center
+.pagg_num
+    padding: 5px 15px
+    background-color: #14192e
+    border-radius: 20px
+    margin: 0px 10px
